@@ -4,6 +4,7 @@ import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
+import ScheduleCart from "../ScheduleCart/ScheduleCart";
 
 export default function Contacto() {
   return (
@@ -43,6 +44,8 @@ export default function Contacto() {
               rows={3}
               placeholder="Breve descripción del motivo de consulta"
             />
+
+            <ScheduleCart />
 
             <Form.Label htmlFor="horarios">
               Indicar alternativas para coordinar horarios de consulta
